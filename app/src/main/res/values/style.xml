@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Стиль для прямоугольной кнопки -->
+    <style name="CustomButton" parent="Theme.MyApplication">
+        <item name="android:background">@drawable/button1</item>
+        <item name="android:textColor">@android:color/black</item> <!-- black цвет текста -->
+    </style>
+
+    <!-- Стиль для кнопки с закругленными углами -->
+    <style name="RoundedButton" parent="Theme.MyApplication">
+        <item name="android:background">@drawable/button2</item>
+        <item name="android:textColor">@android:color/black</item> <!-- black цвет текста -->
+    </style>
+
+    <!-- Стиль для прямоугольно-овальной кнопки -->
+    <style name="OvalButton" parent="Theme.MyApplication">
+        <item name="android:background">@drawable/button3</item>
+        <item name="android:textColor">@android:color/black</item> <!-- black цвет текста -->
+    </style>
+
+</resources>
